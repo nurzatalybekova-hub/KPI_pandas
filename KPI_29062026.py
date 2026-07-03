@@ -84,3 +84,6 @@ top3.to_excel('students_results.xlsx', index = False)
 print(df.sort_values('avg_score', acsending=False).groupby('group').head(3))
 
 print('hello')
+
+def func():
+    
